@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      input.larger { 
+      transform: scale(2); 
+      margin: 10px;
+      } 
+    </style>
+  </head>
+<body>
+<div align="center">
+<br><br>
+<label for="Month">Choose a Month:</label>
+
+<select id="MONTHS">
+  <option value="Jan">January</option>
+  <option value="Feb">Feburary</option>
+  <option value="Mar">March</option>
+  <option value="Apr">April</option>
+  <option value="May">May</option>
+  <option value="Jun">June</option>
+</select>
+
+<br><br>
+<h1>Please select your vehicle:</h1>
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" class="larger" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" class="larger" value=" Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" class="larger" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br><br>
+</form>
+
+
+<form>
+  <h1>Please select your age:</h1>
+  <input type="radio" id="age1" class="larger" value="30">
+  <label for="age1">0 - 10</label><br>
+  <input type="radio" id="age2" class="larger" value="30">
+  <label for="age1">10 - 20</label><br>
+  <input type="radio" id="age3" class="larger" value="60">
+  <label for="age2">20 - 30</label><br>  
+  <input type="radio" id="age4" class="larger" value="100">
+  <label for="age3">30 - 40</label><br><br>
+</form>
+</div>
+</body>
+</html>
